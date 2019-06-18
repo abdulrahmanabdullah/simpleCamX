@@ -1,7 +1,7 @@
 ## Simple Application with Camera X api 
 
 # ScreenShot : 
-![](screenshot/permissions_simpleCamX_tweet-small.png)
+<img src="screenshot/permissions_simpleCamX_tweet.png" width="100px" height="100px"></img>
 ![](screenshot/demo_simpleCamx_tweet-small.png)
 ![](screenshot/save_capture_tweet-small.png)
 # this app contain 
