@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/permissionsFragments2">
+    <fragment
+            tools:layout="@layout/camera_fragment"
+            android:id="@+id/cameraFragment2"
+            android:name="com.abdulrahman.simplecamx.fragments.CameraFragment"
+            android:label="CameraFragment"/>
+
+    <fragment android:id="@+id/permissionsFragments2"
+              android:name="com.abdulrahman.simplecamx.fragments.PermissionsFragments"
+              tools:layout="@layout/permission_fragment"
+              android:label="PermissionsFragments">
+        <action android:id="@+id/action_to_camera_Fragment"
+                app:destination="@id/cameraFragment2"/>
+    </fragment>
+</navigation>
